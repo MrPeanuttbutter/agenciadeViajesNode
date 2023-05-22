@@ -5,8 +5,7 @@ import {
     paginaViajes,
     paginaTestimoniales,
     paginainfoviaje } from '../controllers/paginasController.js';
-import {
-    guardarTestimonial } from '../controllers/testimonialesController.js';
+import { guardarTestimonial } from '../controllers/testimonialesController.js';
 
 const router=express.Router();
 

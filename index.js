@@ -8,7 +8,7 @@ const app=express();
 //conectar la base de datos
 
 db.authenticate()
-    .then(()=> console.log('Database conectada'))
+    .then(()=> console.log('Database ok'))
     .catch(error=> console.log(error))
 
 const port = process.env.PORT || 4000;
